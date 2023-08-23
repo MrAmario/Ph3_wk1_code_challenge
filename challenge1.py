@@ -3,11 +3,10 @@
 #the am should be converted to a 4 digit time
 
 
-def clock(time):
+def clock(hours, min, ):
     for t in time:
-        range(0,12)
-    if time[-1]=="pm":
-        conv = time[0] + 12
-        print(conv)
 
-clock("9:34" pm)
+
+clock("9","34" pm)
+
+for min in minutes range(0,60)

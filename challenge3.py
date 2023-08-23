@@ -7,4 +7,3 @@ def word(string):
     vowels=["a","e","i","o","u"]
 
     for char in string:
-        
