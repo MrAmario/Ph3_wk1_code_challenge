@@ -73,12 +73,20 @@ def numbre(a,b,c):
         count+=1
     if c > 0:
         count +=1
-    else:
-        print("Neither 2 numbers are positive")
-    return count == 2
-print(numbre (4,7,-9))
 
+    if count >2:
+        print("hakuna 2 positve numbers")
+    if count ==3:
+        print("well...all your numbers are positive")
+
+    return count == 2
+    
+
+    
+    
+    
+print(numbre (4,7,-9))
 print(numbre (-2,7,-9))
 print(numbre (4,-10,-9))
 print(numbre (99,12,67))
-print(numbre (-44,23,11))
+# print(numbre (-44,23,11))
